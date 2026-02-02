@@ -86,7 +86,6 @@ class Player:
             if keys[pygame.K_s]:
                 self.rect.y += current_speed
 
-
     def draw(self, screen):
         if self.image:
             screen.blit(self.image, self.rect)
